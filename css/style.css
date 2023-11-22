@@ -37,6 +37,73 @@ main {
     position: relative;
 }
 
+.alterar {
+    margin: 2px;
+    width: 150px;
+}
+
+.btn-change {
+    text-decoration: none;
+}
+
+.topnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+
+nav button {
+    float: left;
+    text-align: center;
+    padding: 8px;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+
+.azul:hover {
+    background-color: rgb(56, 56, 255);
+    color: #FFFFFF;
+}
+
+.amarelo:hover {
+    background-color: rgb(255, 187, 0);
+    color: #000000;
+}
+
+.branco:hover {
+    background-color: white;
+    color: #000000;
+}
+
+.preto:hover {
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.rosa:hover {
+    background-color: pink;
+    color: #000000;
+}
+
+.vermelho:hover {
+    background-color: red;
+    color: #FFFFFF;
+}
+
 .robo {
     height: 110%;
     z-index: 1;
